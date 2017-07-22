@@ -79,7 +79,6 @@ public class StreamSampler {
     }
 
     static void printRandomSample(HashMap<Character, Long> frequency, long sampleSize, long populationSize) {
-
         // start with -1, to account
         // for the zero index.
         long count = -1;

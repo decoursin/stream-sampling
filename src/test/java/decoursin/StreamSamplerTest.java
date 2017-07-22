@@ -51,8 +51,7 @@ public class StreamSamplerTest {
         String actual = redirect.toString();
 
         // assert
-        assertThat(actual)
-            .isEqualTo("asdfg");
+        assertThat(actual).isEqualTo("asdfg");
     }
 
     @Test
@@ -69,10 +68,8 @@ public class StreamSamplerTest {
         expected.put('g', 3L);
         expected.put('s', 6L);
 
-        assertThat(pair.getLeft())
-            .isEqualTo(expected);
+        assertThat(pair.getLeft()).isEqualTo(expected);
 
-        assertThat(pair.getRight())
-            .isEqualTo(size);
+        assertThat(pair.getRight()).isEqualTo(size);
     }
 }

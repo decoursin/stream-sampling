@@ -17,5 +17,5 @@ See [INSTRUCTIONS.pdf](INSTRUCTIONS.pdf)
 ### Testing
 
 There's two different tests:
-* `./test.sh`, which is just basic e2e testing.
+* `./test.e2e.sh`, which is just basic e2e testing.
 * `mvn test`, which tests more accurately correctability.
